@@ -9,20 +9,22 @@ require (
 	github.com/gertd/go-pluralize v0.2.1
 	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.9
-	github.com/jhump/protoreflect v1.10.1
+	github.com/jhump/protoreflect v1.15.0
 	github.com/lithammer/dedent v1.1.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/pflag v1.0.5
 	github.com/stoewer/go-strcase v1.2.1
 	golang.org/x/text v0.7.0
 	google.golang.org/genproto v0.0.0-20230209215440-0dfe4f8abfcc
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.28.2-0.20220831092852-f930b1dc76e8
 	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
+	github.com/bufbuild/protocompile v0.2.1-0.20230123224550-da57cd758c2f // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
-	golang.org/x/net v0.6.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	google.golang.org/grpc v1.53.0 // indirect
 )
